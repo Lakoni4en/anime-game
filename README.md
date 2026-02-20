@@ -1,1 +1,44 @@
-IyBBbmltZSBHYW1lCgojIyDwn5OLINCe0L/QuNGB0LDQvdC40LUKCioqQW5pbWUgR2FtZSoqIC0g0L/RgNC+0LXQutGCINC00LvRjyDQsNCy0YLQvtC80LDRgtC40LfQsNGG0LjQuCDQt9Cw0LTQsNGHLgoK0J3QsNC/0LjRgdCw0L0g0L3QsCDRj9C30YvQutC1INC/0YDQvtCz0YDQsNC80LzQuNGA0L7QstCw0L3QuNGPICoqUHl0aG9uKiouCgojIyDwn5ugINCi0LXRhdC90L7Qu9C+0LPQuNC4CgohW1B5dGhvbl0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS8tUHl0aG9uLWJsdWU/c3R5bGU9ZmxhdC1zcXVhcmUpICFbUHJvY2ZpbGVdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvLVByb2NmaWxlLWJsdWU/c3R5bGU9ZmxhdC1zcXVhcmUpCgoKIyMg8J+UpyDQntGB0L3QvtCy0L3Ri9C1INC60L7QvNC/0L7QvdC10L3RgtGLCgoKKirQpNGD0L3QutGG0LjQuDoqKgoKLSBjcmVhdGVfZ2FtZQotIGdldF94cF9wcm9ncmVzcwotIGdldF9vcHRpb25zX2tleWJvYXJkCi0gZ2V0X25leHRfcmFuawotIGdldF9tYWluX2tleWJvYXJkCi0gZ2V0X3BsYXlfa2V5Ym9hcmQKLSBnZXRfcmFuawotIGNsZWFudXBfb2xkX2dhbWVzCgoKCiMjIPCfk6Yg0JfQsNCy0LjRgdC40LzQvtGB0YLQuAoKCi0gYWlvZ3JhbQotIGFpb2h0dHAKLSBhaW9zcWxpdGUKLSBweXRob24tZG90ZW52CgoKIyMg8J+agCDQo9GB0YLQsNC90L7QstC60LAg0Lgg0LfQsNC/0YPRgdC6CgpgYGBiYXNoCnBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKcHl0aG9uIG1haW4ucHkKYGBgCg==
+# Anime Game
+
+## 📋 Описание
+
+**Anime Game** - проект для автоматизации задач.
+
+Написан на языке программирования **Python**.
+
+## 🛠 Технологии
+
+![Python](https://img.shields.io/badge/-Python-blue?style=flat-square) ![Procfile](https://img.shields.io/badge/-Procfile-blue?style=flat-square)
+
+
+## 🔧 Основные компоненты
+
+
+**Функции:**
+
+- get_options_keyboard
+- get_play_keyboard
+- get_main_keyboard
+- get_rank
+- create_game
+- get_next_rank
+- get_xp_progress
+- cleanup_old_games
+
+
+
+## 📦 Зависимости
+
+
+- aiogram
+- aiohttp
+- aiosqlite
+- python-dotenv
+
+
+## 🚀 Установка и запуск
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
